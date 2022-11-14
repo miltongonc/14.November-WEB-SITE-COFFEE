@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  /* margin-left: 1rem; */
+}
+h1{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+header {
+  position: sticky;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.material-symbols-outlined {
+  color: rgb(255, 255, 255);
+}
+.navbarheader a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.image_nav {
+  width: 50px;
+  height: 40px;
+}
+/* main{
+    position: relative;
+} */
+
+.home_main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+}
+.imagehome {
+  background-image: url("../images/home-img.jpeg");
+  width: 100%;
+  min-height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home_text {
+  position: absolute;
+
+  text-align: center;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.getyoursnow {
+  color: white;
+  background-color: var(--main-color);
+  width: 9rem;
+  height: 2rem;
+}
+
+.home_text,
+h1,
+p {
+  padding-bottom: 1rem;
+}
+
+/* ABOUT US */
+.aboutusmain {
+  margin: 0rem 2rem 0rem 2rem;
+  background-color: var(--black);
+}
+
+.imageaboutus {
+  width: 100%;
+  min-height: 30rem;
+}
+.aboutustext {
+  text-align: left;
+  color: aliceblue;
+  margin-top: 2rem;
+}
+.learnmorebutton {
+  color: aliceblue;
+  background-color: var(--main-color);
+  width: 9rem;
+  height: 2rem;
+}
+
+.ourmenu {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  justify-items: center;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.tastyhealthy {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.tastyhealthybutton {
+  color: white;
+  background-color: var(--main-color);
+  width: 9rem;
+  height: 2rem;
+}
+
+.ourproducts {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  justify-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.freshcoffee {
+  display: flex;
+  border: 1px solid white;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.customersreview {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  justify-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.review {
+  display: flex;
+  border: 1px solid white;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.reviewimg {
+  border-radius: 100%;
+  background-size: cover;
+  width: 5rem;
+}
+.contactus {
+  background-color: var(--black);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icon {
+  padding: 10px;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--bg);
+
+  
+}
+
+.contactbutton{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+  background-color: var(--main-color);
+  width: 9rem;
+  height: 2rem;
+  margin-right:25% ;
+  margin-left:25% ;
+  border-radius: 5px;
+ 
+
+}
+.ourblogs {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  justify-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.tastyrefreshing {
+  display: flex;
+  border: 1px solid white;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.blogimg{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.titeluntilbutton{
+    padding-left: 1.5rem;
+    border-radius:5px ;
+    
+}
+.ourblogbutton{
+  color: white;
+  background-color: var(--main-color);
+  width: 9rem;
+  height: 2rem;
+  border-radius:5px ;
+  margin-bottom: 1rem;
+  
+}
+.bottomcontainer{
+    display: flex;
+    height: 7.5rem;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black);
+    
+}
+.share{
+    margin-bottom: 1rem;
+}
+
+
+
+.fab{
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.buttonfooter{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-content: center;
+    
+    
+   
+
+}
+.endbutton{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: var(--black);
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 1rem;
+    /* margin-bottom: 1rem; */
+
+    
+}
+
+@media (min-width: 300px) {
+
+.ourmenu{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+}
+
+
+
+@media (min-width: 768px) {
+ 
+.ourmenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.ourproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+.customersreview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+}
+
+
+
+/* media queries  */
+@media (min-width: 991px) {
+
+.ourmenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.ourproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+.customersreview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+}
